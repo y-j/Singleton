@@ -14,6 +14,9 @@
 		1FBF95AB1CE6E7C100890F9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF95AA1CE6E7C100890F9C /* Images.xcassets */; };
 		1FBF95AE1CE6E7C100890F9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF95AC1CE6E7C100890F9C /* LaunchScreen.xib */; };
 		1FBF95BA1CE6E7C100890F9C /* SingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF95B91CE6E7C100890F9C /* SingletonTests.m */; };
+		1FBF95C71CE6E85600890F9C /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF95C61CE6E85600890F9C /* Test1.m */; };
+		1FBF95CA1CE6E86100890F9C /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF95C91CE6E86100890F9C /* Test2.m */; };
+		1FBF95CD1CE6E86D00890F9C /* Test3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF95CC1CE6E86D00890F9C /* Test3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 		1FBF95B31CE6E7C100890F9C /* SingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBF95B81CE6E7C100890F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FBF95B91CE6E7C100890F9C /* SingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonTests.m; sourceTree = "<group>"; };
+		1FBF95C41CE6E7F900890F9C /* SingletonClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonClass.h; sourceTree = "<group>"; };
+		1FBF95C51CE6E85600890F9C /* Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		1FBF95C61CE6E85600890F9C /* Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
+		1FBF95C81CE6E86100890F9C /* Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
+		1FBF95C91CE6E86100890F9C /* Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
+		1FBF95CB1CE6E86D00890F9C /* Test3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3.h; sourceTree = "<group>"; };
+		1FBF95CC1CE6E86D00890F9C /* Test3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,13 @@
 				1FBF95AA1CE6E7C100890F9C /* Images.xcassets */,
 				1FBF95AC1CE6E7C100890F9C /* LaunchScreen.xib */,
 				1FBF959D1CE6E7C100890F9C /* Supporting Files */,
+				1FBF95C41CE6E7F900890F9C /* SingletonClass.h */,
+				1FBF95C51CE6E85600890F9C /* Test1.h */,
+				1FBF95C61CE6E85600890F9C /* Test1.m */,
+				1FBF95C81CE6E86100890F9C /* Test2.h */,
+				1FBF95C91CE6E86100890F9C /* Test2.m */,
+				1FBF95CB1CE6E86D00890F9C /* Test3.h */,
+				1FBF95CC1CE6E86D00890F9C /* Test3.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -222,6 +239,9 @@
 				1FBF95A61CE6E7C100890F9C /* ViewController.m in Sources */,
 				1FBF95A31CE6E7C100890F9C /* AppDelegate.m in Sources */,
 				1FBF95A01CE6E7C100890F9C /* main.m in Sources */,
+				1FBF95CD1CE6E86D00890F9C /* Test3.m in Sources */,
+				1FBF95CA1CE6E86100890F9C /* Test2.m in Sources */,
+				1FBF95C71CE6E85600890F9C /* Test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
